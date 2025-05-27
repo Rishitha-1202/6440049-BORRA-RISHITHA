@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Community Portal - jQuery Example</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    .event-card {
+      display: none;
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 10px 0;
+      background-color: #f9f9f9;
+    }
+
+    #registerBtn {
+      padding: 8px 16px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    #toggleEvents {
+      padding: 6px 14px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Community Event Portal</h1>
+
+  <div id="events">
+    <div class="event-card">🎤 Music Fest - June 10</div>
+    <div class="event-card">🎨 Art Workshop - June 15</div>
+  </div>
+
+  <button id="registerBtn">Register</button>
+  <button id="toggleEvents">Show/Hide Events</button>
+
+  <script src="main.js"></script>
+</body>
+</html>

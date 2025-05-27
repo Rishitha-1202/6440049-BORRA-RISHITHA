@@ -1,0 +1,21 @@
+/* Header styles */
+.sub-heading {
+    color: #007BFF;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styles */
+.intro-text {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Footer styles */
+.site-footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}

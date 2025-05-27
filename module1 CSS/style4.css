@@ -1,0 +1,21 @@
+.eventCard {
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Outline for form */
+.formField {
+  outline: 2px solid green;
+  padding: 8px;
+  margin: 10px;
+}
+
+/* Visibility comparison */
+.hidden {
+  visibility: hidden;
+}
+
+.gone {
+  display: none;
+}

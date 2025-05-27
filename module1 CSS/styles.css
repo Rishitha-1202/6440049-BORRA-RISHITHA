@@ -1,0 +1,28 @@
+/* Link states */
+a:link {
+  color: blue;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: purple;
+}
+
+/* List styles */
+.nav-menu {
+  list-style-type: none; /* Remove bullets */
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu li {
+  margin: 10px;
+  padding: 5px;
+}
